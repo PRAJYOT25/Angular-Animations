@@ -1,16 +1,23 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
+import { PopoverComponent } from './popover/popover.component';
+import { AnimationListComponent } from './animation-list/animation-list.component';
+import { PhohtoGalleryComponent } from './phohto-gallery/phohto-gallery.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PopoverComponent,
+    AnimationListComponent,
+    PhohtoGalleryComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
