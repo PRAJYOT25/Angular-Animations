@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { PopoverComponent } from './popover/popover.component';
 import { AnimationListComponent } from './animation-list/animation-list.component';
 import { PhohtoGalleryComponent } from './phohto-gallery/phohto-gallery.component';
+import { SlideComponent } from './slide/slide.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { PhohtoGalleryComponent } from './phohto-gallery/phohto-gallery.componen
     AppComponent,
     PopoverComponent,
     AnimationListComponent,
-    PhohtoGalleryComponent
+    PhohtoGalleryComponent,
+    SlideComponent
   ],
   imports: [
     BrowserModule,

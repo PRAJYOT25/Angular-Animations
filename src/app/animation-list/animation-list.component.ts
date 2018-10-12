@@ -4,7 +4,9 @@ import {
   state,
   style,
   animate,
-  transition,query,stagger
+  transition,
+  query,
+  stagger
 } from '@angular/animations';
 @Component({
   selector: 'animation-list',
